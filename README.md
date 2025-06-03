@@ -1,12 +1,84 @@
-# React + Vite
+## 🎨 Color Picker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + Tailwind CSS color picker that allows users to:
 
-Currently, two official plugins are available:
+* Select colors using a native color input
+* Enter hex color codes manually
+* Copy and paste hex codes using clipboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Clean, minimal, and interactive color picker for web interfaces or design tools.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### 🚀 Features
+
+✅ Live color preview
+✅ Editable hex input field
+✅ Copy hex code to clipboard
+✅ Paste hex code from clipboard
+✅ Fully responsive and accessible
+✅ Built with React and Tailwind CSS
+
+---
+
+### 🛠️ Tech Stack
+
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
+
+---
+
+### 🧑‍💻 Getting Started
+
+#### 1. Clone the repo
+
+
+
+#### 2. Install dependencies
+
+```bash
+npm install
+```
+
+#### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+> App runs on `http://localhost:5173` (or similar) by default.
+
+---
+
+### 📁 Project Structure
+
+```
+src/
+├── App.jsx
+├── ColorPicker.jsx
+└── main.jsx
+```
+
+---
+
+### ✨ Customization
+
+* Change default color in `useState("#78a0f5")`
+* Extend with additional inputs like RGB or HSL
+* Add themes or export to JSON
+
+---
+
+### 📋 License
+
+This project is open source under the [MIT License](LICENSE).
+
+---
+
+### 🙌 Acknowledgments
+
+Built with ❤️ using React and Tailwind CSS. Clipboard logic powered by the [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API).
+
+
